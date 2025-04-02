@@ -1,0 +1,7 @@
+services:
+  ws-scrcpy:
+    image: ws-scrcpy
+    container_name: ws-scrcpy
+    ports:
+      - "8223:8000"
+    restart: unless-stopped
